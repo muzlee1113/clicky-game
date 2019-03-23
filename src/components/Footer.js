@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
     return (
-        <nav className="navbar sticky-bottom navbar-light bg-warning py-4">
-            
-        </nav>
+        <div className="sticky-bottom bg-warning py-4">
+            <p className="text-center"> <i className="fab fa-react pr-2"></i> Proudly created by Yuwen with React</p>
+        </div>
     );
 }
 
