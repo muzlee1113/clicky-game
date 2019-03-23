@@ -2,8 +2,9 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://muzlee1113.github.io/clicky-game/",
+  "homepage": "https://muzlee1113.github.io/clicky-game",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "pkg": "^4.3.7",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
@@ -11,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
